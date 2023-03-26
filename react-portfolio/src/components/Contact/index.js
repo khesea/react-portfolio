@@ -47,6 +47,7 @@ const Contact = () => {
               </li>
             </ul>
           </form>
+        </div>
       </div>
     </div>
     <Loader type="pacman" />

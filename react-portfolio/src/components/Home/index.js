@@ -8,7 +8,8 @@ import "./index.scss";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['h', 'e', 's', 'e', 'a'];
+  const firstNameArray = ['k', 'h', 'e'];
+  const secondNameArray = ['e', 'a'];
   const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
   useEffect (() => {
@@ -27,10 +28,14 @@ const Home = () => {
         <br />
         <span className={`${letterClass} _13`}>I</span>
         <span className={`${letterClass} _14`}>'m</span>
+
+        <AnimatedLetters letterClass={letterClass}
+        strArray={firstNameArray}
+        idx={15} />
         <img src={LogoTitle} alt="developer" />
         <AnimatedLetters letterClass={letterClass}
-        strArray={nameArray}
-        idx={15} />
+        strArray={secondNameArray}
+        idx={18} />
         <br />
         <AnimatedLetters letterClass={letterClass}
         strArray={jobArray}

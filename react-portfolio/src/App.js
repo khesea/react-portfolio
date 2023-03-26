@@ -5,7 +5,6 @@ import Layout from './components/Layout'
 import Contact from './components/Contact'
 import './App.scss'
 
-
 function App() {
   return (
     <>

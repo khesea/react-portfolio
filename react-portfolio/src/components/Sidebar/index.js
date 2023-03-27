@@ -1,22 +1,19 @@
-import './index.scss';
-import { useState } from 'react';
-import LogoS from '../../assets/images/logo-s.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './index.scss'
+import { useState } from 'react'
+import LogoS from '../../assets/images/logo-s.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faSkype,
-} from '@fortawesome/free-brands-svg-icons';
+  faTelegram,
+} from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
-  faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-} from '@fortawesome/free-solid-svg-icons';
-import { Link, NavLink } from 'react-router-dom';
+  faEnvelope
+} from '@fortawesome/free-solid-svg-icons'
+import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -37,7 +34,7 @@ const Sidebar = () => (
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://tashkent.hh.uz/resume/8ed6edf5ff0bd3a9b60039ed1f62717a6c5a6d/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +47,7 @@ const Sidebar = () => (
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/khesea"
             target="_blank"
             rel="noreferrer"
           >
@@ -63,7 +60,7 @@ const Sidebar = () => (
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://www.youtube.com/channel/UCjlI0s3VHT4al7asWBQuUwg"
             rel="noreferrer"
             target="_blank"
           >
@@ -75,9 +72,9 @@ const Sidebar = () => (
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a href="https://telegram.me/khesearus" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              icon={faSkype}
+              icon={faTelegram}
               color="#4d4d4e"
               className="anchor-icon"
             />
@@ -87,4 +84,4 @@ const Sidebar = () => (
   </div>
 )
 
-export default Sidebar;
+export default Sidebar
